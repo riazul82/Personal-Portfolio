@@ -1,0 +1,127 @@
+/* ======================= 
+    ICONMOON fonts start
+========================= */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?snpqrp');
+    src: url('fonts/icomoon.eot?snpqrp#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?snpqrp') format('truetype'),
+        url('fonts/icomoon.woff?snpqrp') format('woff'),
+        url('fonts/icomoon.svg?snpqrp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /* speak: never; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera:before {
+    content: "\e900";
+}
+
+.icon-chart-line:before {
+    content: "\e901";
+}
+
+.icon-code:before {
+    content: "\e902";
+}
+
+.icon-cog:before {
+    content: "\e903";
+}
+
+.icon-cogs:before {
+    content: "\e904";
+}
+
+.icon-desktop:before {
+    content: "\e905";
+}
+
+.icon-envelope:before {
+    content: "\e906";
+}
+
+.icon-exclamation-circle:before {
+    content: "\e907";
+}
+
+.icon-exclamation-triangle:before {
+    content: "\e908";
+}
+
+.icon-graduation-cap:before {
+    content: "\e909";
+}
+
+.icon-headset:before {
+    content: "\e90a";
+}
+
+.icon-map-marked-alt:before {
+    content: "\e90b";
+}
+
+.icon-mobile-alt:before {
+    content: "\e90c";
+}
+
+.icon-paint-brush:before {
+    content: "\e90d";
+}
+
+.icon-phone:before {
+    content: "\e90e";
+}
+
+.icon-phone-alt:before {
+    content: "\e90f";
+}
+
+.icon-times:before {
+    content: "\e910";
+}
+
+.icon-tint:before {
+    content: "\e911";
+}
+
+.icon-facebook-f:before {
+    content: "\e912";
+}
+
+.icon-github:before {
+    content: "\e913";
+}
+
+.icon-instagram:before {
+    content: "\e914";
+}
+
+.icon-linkedin-in:before {
+    content: "\e915";
+}
+
+.icon-twitter:before {
+    content: "\e916";
+}
+
+/* ======================
+    ICONMOON fonts end
+======================= */

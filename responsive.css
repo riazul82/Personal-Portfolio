@@ -1,0 +1,573 @@
+@media (max-width: 1530px) {
+    .portfolio-filter-items {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1460px) {
+    .about {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .services {
+        height: auto;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    section {
+        margin: 0 1.6rem;
+    }
+
+    .header {
+        left: -23rem;
+        min-height: 100vh;
+        overflow: auto;
+    }
+
+    .header.header-active {
+        left: 0;
+    }
+
+    .container {
+        min-width: 100%;
+    }
+
+    .toggle-menu {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .toggle-bar.toggle-active {
+        background: #333;
+        -webkit-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+        transform: rotate(40deg);
+    }
+
+    .toggle-bar.toggle-active::before {
+        -webkit-transform: rotate(-85deg);
+        -ms-transform: rotate(-85deg);
+        transform: rotate(-85deg);
+        top: 0;
+    }
+
+    .toggle-bar.toggle-active::after {
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        top: 0;
+    }
+
+    .container .slider {
+        min-width: 100%;
+    }
+
+    .portfolio-filter-items {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .filter-content {
+        margin: 0.2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    section {
+        margin: 0 0.8rem;
+    }
+
+    .profile-lightbox {
+        min-height: 620px;
+        width: 360px;
+    }
+
+    .profile-details .my-image {
+        width: 100%;
+        height: 48%;
+    }
+
+    .profile-details-wrapper h2 {
+        margin-top: 1.2rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .profile-details-wrapper .profile-details-content p {
+        font-size: 1.2rem;
+    }
+
+    .profile-details .profile-details-wrapper {
+        width: 100%;
+    }
+
+    .profile-lightbox .profile-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .portfolio-lightbox {
+        min-height: 620px;
+        width: 360px;
+    }
+
+    .portfolio-lightbox .lightbox-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .lightbox-details .image-wrapper {
+        height: 48%;
+        width: 100%;
+    }
+
+    .lightbox-details .project-details-wrapper {
+        width: 100%;
+    }
+
+    .project-details-wrapper h2 {
+        margin-top: 1.2rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .project-details-content p {
+        font-size: 1.2rem;
+    }
+
+    .container-home .home-wrap {
+        padding-left: 5rem;
+    }
+
+    .home-wrap p {
+        font-size: 2rem;
+    }
+
+    .home-wrap h2 {
+        font-size: 5rem;
+    }
+
+    .home-wrap h2 span {
+        font-size: 3.4rem;
+    }
+
+    .home-wrap .textition-animation p {
+        font-size: 2.8rem;
+    }
+
+    .textition-animation #textition-text {
+        width: 380px;
+    }
+
+    .filter-content {
+        margin: 0.2rem;
+    }
+
+    .container-blog {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .slider .slider-inner {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .container-home .home-wrap {
+        padding-left: 4rem;
+    }
+
+    .home-wrap p {
+        font-size: 1.8rem;
+    }
+
+    .home-wrap h2 {
+        font-size: 4.6rem;
+    }
+
+    .home-wrap h2 span {
+        font-size: 3rem;
+    }
+
+    .home-wrap .textition-animation p {
+        font-size: 2.4rem;
+    }
+
+    .textition-animation #textition-text {
+        width: 320px;
+    }
+
+    .skills-wrapper .chart-wrapper {
+        width: 190px;
+        height: 160px;
+    }
+
+    .profile-lightbox {
+        min-height: 500px;
+        width: 320px;
+    }
+
+    .profile-header p {
+        font-size: 1rem;
+    }
+
+    .profile-details .my-image {
+        width: 100%;
+        height: 48%;
+    }
+
+    .profile-lightbox .profile-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .profile-details .profile-details-wrapper {
+        width: 100%;
+        padding-left: 0.4rem;
+    }
+
+    .profile-details-wrapper h2 {
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .profile-details-wrapper .profile-details-content p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    .portfolio-lightbox {
+        min-height: 500px;
+        width: 320px;
+    }
+
+    .lightbox-header {
+        padding-bottom: 0.9rem;
+    }
+
+    .lightbox-header p {
+        font-size: 1rem;
+    }
+
+    .portfolio-lightbox .lightbox-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .lightbox-details .image-wrapper {
+        height: 48%;
+        width: 100%;
+    }
+
+    .lightbox-details .project-details-wrapper {
+        width: 100%;
+        padding-left: 0.4rem;
+    }
+
+    .project-details-wrapper h2 {
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .project-details-content p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .container-home .home-wrap {
+        padding-left: 2.2rem;
+    }
+
+    .home-wrap p {
+        font-size: 1.4rem;
+    }
+
+    .home-wrap h2 {
+        font-size: 3.2rem;
+    }
+
+    .home-wrap h2 span {
+        font-size: 2.4rem;
+    }
+
+    .home-wrap .textition-animation p {
+        padding-right: 0.2rem;
+        font-size: 1.4rem;
+    }
+
+    .textition-animation #textition-text {
+        width: 180px;
+    }
+
+    .section-header {
+        padding-bottom: 0.2rem;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    .section-header::first-letter {
+        font-size: 2.2rem;
+    }
+
+    .section-header::before {
+        height: 3.5px;
+    }
+
+    .btn {
+        margin-right: 0.8rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .about .about-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .about .about-description {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .my-info .details-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .my-info .my-details {
+        font-size: 1rem;
+    }
+
+    .container-education .education-title {
+        font-size: 1.2rem;
+        padding-left: 0.4rem;
+    }
+
+    .skill-title,
+    .exp-title,
+    .edu-title {
+        padding-right: 0.6rem;
+    }
+
+    .display-edu {
+        padding: 0.8rem 0;
+        min-height: 40vh;
+    }
+
+    .degree-type {
+        font-size: 1.2rem;
+        letter-spacing: 0.4px;
+    }
+
+    .college {
+        font-size: 1rem;
+    }
+
+    .degree-details {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .container-myexp .display-exp {
+        min-height: 40vh;
+    }
+
+    .experience-wrapper .exp-year {
+        padding: 0 0.2rem;
+        top: -1.2rem;
+        font-size: 1.7rem;
+    }
+
+    .experience-details .experience-type {
+        font-size: 1.3rem;
+    }
+
+    .experience-details .experience-description {
+        font-size: 1rem;
+    }
+
+    .blog-details a .blog-title {
+        font-size: 1.4rem;
+    }
+
+    .contact-wrapper .info h2 {
+        font-size: 1.8rem;
+    }
+
+    .info .address .info-text {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .header {
+        width: 100%;
+        left: -100%;
+    }
+
+    .header.active {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .home-wrap p {
+        font-size: 1.1rem;
+    }
+
+    .home-wrap h2 {
+        padding-top: 1rem;
+        font-size: 2.6rem;
+    }
+
+    .home-wrap h2 span {
+        font-size: 1.8rem;
+    }
+
+    .home-wrap .textition-animation p {
+        font-size: 1rem;
+    }
+
+    .textition-animation #textition-text {
+        width: 170px;
+    }
+
+    .card-wrapper .card .lare2 h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-wrapper .card .lare2 p {
+        padding: 10px 20px 0 20px;
+        font-size: 1.1rem;
+        letter-spacing: 0;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .about .about-title {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .about .about-description {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .my-info .details-title {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .my-info .my-details {
+        margin-top: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .about .my-info {
+        margin: 2rem 0 1.6rem 0;
+    }
+
+    .btn {
+        margin-right: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .container-education .education-title {
+        font-size: 1rem;
+    }
+
+    .card-wrapper .card .lare1 .icon {
+        font-size: 2.2rem;
+    }
+
+    .card-wrapper .card .lare1 h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-wrapper .card .lare2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .card-wrapper .card .lare2 p {
+        font-size: 1rem;
+    }
+
+    .blog-wrapper {
+        margin: 2.6rem 0.4rem 0 0.4rem;
+    }
+
+    .blog-details a .blog-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .blog-details .blog-description {
+        font-size: 1rem;
+    }
+
+    section.contact {
+        margin: 0.2rem;
+    }
+
+    .contact-wrapper .info {
+        margin-top: 2rem;
+    }
+
+    .contact-wrapper .info h2 {
+        font-size: 2rem;
+    }
+
+    .info .address .info-text {
+        font-size: 1.2rem;
+    }
+
+    .info .address .info-text span {
+        font-size: 1.8rem;
+    }
+
+    .info .address .info-text p {
+        padding-left: 1rem;
+    }
+
+    .contact-wrapper .contact-form {
+        min-width: 100%;
+    }
+
+    #main-form input,
+    .textarea-field textarea {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+
+}

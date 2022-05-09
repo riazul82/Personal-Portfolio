@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<!--
+Template name: Personal Portfolio
+Author: Md. Riazul Islam
+Author URI: https://github.com/riazul82
+Date: June, 2021
+--------------------------------------------->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style/light_theme.css">
+    <link rel="stylesheet" href="style/orange_main.css">
+    <link rel="stylesheet" href="style/red.css">
+
+    <link rel="stylesheet" class="color-main" title="red" href="style/red_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="green" href="style/green_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="blue" href="style/blue_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="orange" href="style/orange_main.css" disabled>
+    <link rel="stylesheet" class="color-main" title="pink" href="style/pink_main.css" disabled>
+
+    <link rel="stylesheet" class="color-style" title="red" href="style/red.css" disabled>
+    <link rel="stylesheet" class="color-style" title="green" href="style/green.css" disabled>
+    <link rel="stylesheet" class="color-style" title="blue" href="style/blue.css" disabled>
+    <link rel="stylesheet" class="color-style" title="orange" href="style/orange.css" disabled>
+    <link rel="stylesheet" class="color-style" title="pink" href="style/pink.css" disabled>
+
+    <title>Portfolio</title>
+</head>
+
+<body onload="startLoading()">
+
+    <!-- Preloader -->
+    <div class="page-loader">
+        <div class="container-load">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="loading-text">
+                loading...
+            </div>
+        </div>
+    </div>
+
+    <div class="container-main">
+
+        <!-- Header start -->
+        <header class="header">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="img/profile.jpg" alt="profile">
+                    <span class="icon-camera"></span>
+                </div>
+                <h2 class="profile-name"><a href="#about" id="my-name">Jhon Doe</a></h2>
+            </div>
+
+            <div class="profile-lightbox">
+                <div class="profile-header">
+                    <p>Category: <span id="profile-category">my-profile</span></p>
+                    <span id="close-profile" class="icon-times"></span>
+                </div>
+                <div class="profile-details">
+                    <div class="my-image">
+                        <img id="my-pic" src="" alt="profile image">
+                    </div>
+                    <div class="profile-details-wrapper">
+                        <h2>My info</h2>
+                        <div class="profile-details-content">
+                            <p>Name: <span>Jhon Doe</span></p>
+                            <p>Age: <span>23</span></p>
+                            <p>Degree: <span>BSc. in CSE</span></p>
+                            <p>Occupation: <span>Programmer</span></p>
+                            <p>Skills: <span>Javascript, Python</span></p>
+                            <p>Type: <span>Full time</span></p>
+                            <p>Contact: <span>+88 0123-456-789</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lightbox-shadow"></div>
+
+            <div class="toggle-menu">
+                <span class="toggle-bar"></span>
+            </div>
+
+            <nav class="navbar">
+                <ul class="nav-items">
+                    <li><a href="#home" data-list="Home" class="menu-active">Home</a></li>
+                    <li><a href="#about" data-list="About" id="menu-about">About</a></li>
+                    <li><a href="#education" data-list="Education">Education</a></li>
+                    <li><a href="#services" data-list="Services">Services</a></li>
+                    <li><a href="#portfolio" data-list="Portfolio">Portfolio</a></li>
+                    <li><a href="#blog" data-list="Blog">Blog</a></li>
+                    <li><a href="#contact" data-list="Contact" id="menu-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header end -->
+
+        <div class="container">
+
+            <!-- Slider -->
+            <div class="slider">
+                <h1 class="slider-inner">Inner Text</h1>
+            </div>
+
+            <!-- Home section start -->
+            <section class="home active" id="Home">
+                <div class="container-home">
+                    <div class="home-wrap">
+                        <p>Hi there, </p>
+                        <h2><span>I'm </span>Jhon Doe</h2>
+                        <div class="textition-animation">
+                            <p class="tag">And I'm a </p>
+                            <div id="textition-text">
+                                <p>Programmer</p>
+                                <p>Web Developer</p>
+                                <p>Web Designer</p>
+                                <p>Freelancer</p>
+                            </div>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="#about" class="btn" id="about-btn" data-btn="about">About me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home section end -->
+
+            <!-- About section start -->
+            <section class="about" id="About">
+                <h1 class="section-header"><span>A</span>bout me</h1>
+                <div class="container-about">
+                    <p class="about-title">I'm a professional <span class="typing-text"></span></p>
+                    <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi and quoe
+                        esse
+                        cupid eitate
+                        natus facilis velit lily tour eius deserunt nulla the finest numquam blandities famous adipisci
+                        corrupti unde
+                        fugiat eame
+                        non neque. Omnis quibusdam provident autem tenetur inventore amet ipsam quas
+                        officies
+                        liberoe
+                        aliquam itaque possimus asperiores quis tempora voluptas.</p>
+
+                    <div class="my-info">
+                        <p class="details-title">My details</p>
+                        <div class="my-details">
+                            <div class="details-1">
+                                <p>Full Name : <span>Jhon Doe</span></p>
+                                <p>Birthday : <span>20 July, 1998</span></p>
+                                <p>Age : <span>23 Years</span></p>
+                                <p>Freelance : <span>Available</span></p>
+                            </div>
+                            <div class="details-2">
+                                <p>Degree : <span>BSc. in CSE</span></p>
+                                <p>City : <span>Dhaka</span></p>
+                                <p>Type: <span>Full Time</span></p>
+                                <p>Languages: <span>Bangla, English</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-btn">
+                        <a href="#" class="btn" id="download-cv-btn">Download CV</a>
+                        <a href="#contact" class="btn" id="hire-me-btn">Hire me</a>
+                    </div>
+                </div>
+            </section>
+            <!-- About section end -->
+
+            <!-- Education section start -->
+            <section class="education" id="Education">
+                <h1 class="section-header"><span>E</span>ducation</h1>
+                <div class="container-education">
+                    <div class="education-title">
+                        <p class="edu-title active-title" data-edu="myedu">Education</p>
+                        <p class="exp-title" data-edu="myexp">Experience</p>
+                        <p class="skill-title" data-edu="skills">Skills</p>
+                    </div>
+
+                    <!-- education -->
+                    <div class="container-myedu active-edu" data-edu="myedu">
+                        <div class="display-edu">
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2020- 2021</p>
+                                    <h2 class="degree-type">Engineering Degree</h2>
+                                    <p class="college">Oxford University</p>
+                                    <p class="degree-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2018 - 2020</p>
+                                    <h2 class="degree-type">Master Degree</h2>
+                                    <p class="college">Harvard University</p>
+                                    <p class="degree-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2016 - 2018</p>
+                                    <h2 class="degree-type">Bachelor Degree</h2>
+                                    <p class="college">University of Singapore</p>
+                                    <p class="degree-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="education-wrapper">
+                                <div class="graduation-icon">
+                                    <span class="icon-graduation-cap"></span>
+                                </div>
+                                <div class="education-details">
+                                    <p class="year">2014 - 2016</p>
+                                    <h2 class="degree-type">College Degree</h2>
+                                    <p class="college">Columbia University College</p>
+                                    <p class="degree-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- experience -->
+                    <div class="container-myexp" data-edu="myexp">
+                        <div class="display-exp">
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-mobile-alt"></span>
+                                </div>
+                                <p class="exp-year">2020 - 2021</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">App Development</h2>
+                                    <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-cogs"></span>
+                                </div>
+                                <p class="exp-year">2019 - 2020</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Back End Development</h2>
+                                    <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-code"></span>
+                                </div>
+                                <p class="exp-year">2017 - 2018</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Fornt End Development</h2>
+                                    <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-wrapper">
+                                <div class="exp-icon">
+                                    <span class="icon-paint-brush"></span>
+                                </div>
+                                <p class="exp-year">2015 - 2016</p>
+                                <div class="experience-details">
+                                    <h2 class="experience-type">Graphic Design</h2>
+                                    <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Eumea
+                                        delectus ipsum velit facere consequuntur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="container-skills" data-edu="skills">
+                        <div class="display-skills">
+                            <div class="skills-container">
+                                <div class="skills-wrapper">
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="90">
+                                            90%
+                                        </div>
+                                        <p>HTML</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="86">
+                                            86%
+                                        </div>
+                                        <p>CSS</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="75">
+                                            75%
+                                        </div>
+                                        <p>Javascript</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="65">
+                                            65%
+                                        </div>
+                                        <p>Bootstrap</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="56">
+                                            56%
+                                        </div>
+                                        <p>React</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="70">
+                                            70%
+                                        </div>
+                                        <p>Python</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="55">
+                                            55%
+                                        </div>
+                                        <p>C++</p>
+                                    </div>
+
+                                    <div class="chart-wrapper">
+                                        <div class="chart" data-percent="40">
+                                            40%
+                                        </div>
+                                        <p>Java</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Education section end -->
+
+            <!-- Service section start -->
+            <section class="services" id="Services">
+                <h1 class="section-header"><span>S</span>ervices</h1>
+                <div class="card-wrapper">
+                    <div class="card card1">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-code"></span>
+                            </div>
+                            <h2>Web Design</h2>
+                        </div>
+
+                        <div class="lare2">
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card2">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-cogs"></span>
+                            </div>
+                            <h2>Web Development</h2>
+                        </div>
+
+                        <div class="lare2">
+                            <h2>Web Development</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-paint-brush"></span>
+                            </div>
+                            <h2>Graphic Design</h2>
+                        </div>
+
+                        <div class="lare2">
+                            <h2>Graphic Design</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card4">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-mobile-alt"></span>
+                            </div>
+                            <h2>App Development</h2>
+                        </div>
+
+                        <div class="lare2">
+                            <h2>App Development</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card5">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-chart-line"></span>
+                            </div>
+                            <h2>Advertisign</h2>
+                        </div>
+                        <div class="lare2">
+                            <h2>Advertieign</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card6">
+                        <div class="lare1">
+                            <div class="icon">
+                                <span class="icon-headset"></span>
+                            </div>
+                            <h2>24/7 Support</h2>
+                        </div>
+                        <div class="lare2">
+                            <h2>Customer Support</h2>
+                            <p>Lorem ipsum dolor sit amet conseq eqteture adipisicing elit. Official ameture conse
+                                quatuer autemalues
+                                necessi tatibus prae sentium dolore dolores quo similique alias facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Services section end -->
+
+            <!-- Portfolio section start -->
+            <section class="portfolio" id="Portfolio">
+                <h1 class="section-header"><span>P</span>ortfolio</h1>
+                <div class="portfolio-wrapper">
+                    <ul class="portfolio-filter-menu">
+                        <li class="filter-active" data-item="all">All</li>
+                        <li data-item="web-design">Web Design</li>
+                        <li data-item="photography">Photography</li>
+                        <li data-item="illustration">Illustration</li>
+                    </ul>
+
+                    <div class="portfolio-filter-items">
+                        <div class="filter-content" id="web1" data-item="web-design">
+                            <img src="img/web1.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="ill2" data-item="illustration">
+                            <img src="img/ill2.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="photo2" data-item="photography">
+                            <img src="img/photo2.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="photo1" data-item="photography">
+                            <img src="img/photo1.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="ill1" data-item="illustration">
+                            <img src="img/ill1.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="ill3" data-item="illustration">
+                            <img src="img/ill3.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="web2" data-item="web-design">
+                            <img src="img/web2.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                        <div class="filter-content" id="web3" data-item="web-design">
+                            <img src="img/web3.jpg" alt="portfolio-img">
+                            <p>View Details</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-lightbox">
+                    <div class="lightbox-header">
+                        <p>Category: <span id="lightbox-category">Undefined</span></p>
+                        <span id="close-lightbox" class="icon-times"></span>
+                    </div>
+                    <div class="lightbox-details">
+                        <div class="image-wrapper">
+                            <img id="lightbox-image" src="" alt="project preview">
+                        </div>
+                        <div class="project-details-wrapper">
+                            <h2 id="project-details-title">Project Details</h2>
+                            <div class="project-details-content">
+                                <p>Project Title: <span id="project-title">Undefined</span></p>
+                                <p>Project Category: <span id="project-category">Undefined</span></p>
+                                <p>Date Created: <span id="created-date">Undefined</span></p>
+                                <p>Technologies: <span id="technology-used">Undefined</span></p>
+                                <p>Type: <span id="project-type">Undefined</span></p>
+                                <p>Online Preview: <a href="#portfolio" id="view-online">Undefined</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-lightbox-shadow"></div>
+
+            </section>
+            <!-- Portfolio section end -->
+
+            <!-- Blog section start -->
+            <section class="blog" id="Blog">
+                <h1 class="section-header"><span>M</span>y blog</h1>
+                <div class="container-blog">
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/ill1.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>HTML, CSS</span></p>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/web1.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>HTML, CSS</span></p>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/ill2.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>HTML, CSS</span></p>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/web2.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>HTML, CSS</span></p>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/web3.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>Bootstrap</span></p>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrapper">
+                        <div class="blog-img">
+                            <img src="img/ill3.jpg" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <p class="blog-date">20 Mar, 2021</p>
+                            <a href="#">
+                                <p class="blog-title">Computer Programming</p>
+                            </a>
+                            <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                odio nihil vero nostrum commodi incidunt.</p>
+                            <p class="tags">Tags: <span>Javascript</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog section end -->
+
+            <!-- Contact section start -->
+            <section class="contact" id="Contact">
+                <h1 class="section-header"><span>C</span>ontact</h1>
+                <div class="contact-container">
+                    <div class="contact-wrapper">
+                        <div class="info">
+                            <h2>Information</h2>
+                            <div class="address">
+                                <div class="info-text">
+                                    <span class="icon-map-marked-alt"></span>
+                                    <p> Jhon Tower, 5th Floor, <br>2125 Hudson St, NY 2577</p>
+                                </div>
+
+                                <div class="info-text">
+                                    <span class="icon-envelope"></span>
+                                    <p> info@gmail.com</p>
+                                </div>
+
+                                <div class="info-text">
+                                    <span class="icon-phone-alt"></span>
+                                    <p> +88 0123-456-789</p>
+                                </div>
+                            </div>
+                            <div class="social-link">
+                                <a href="#"><span class="icon-instagram"></span></a>
+                                <a href="#"><span class="icon-twitter"></span></a>
+                                <a href="#"><span class="icon-github"></span></a>
+                                <a href="#"><span class="icon-linkedin-in"></span></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <form action="#" id="main-form">
+                                <div class="input-field name-field">
+                                    <input type="text" placeholder="First Name" required>
+                                    <input type="text" placeholder="Last Name" required>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="textarea-field">
+                                    <textarea name="text-message" id="message" placeholder="Your Message"
+                                        required></textarea>
+                                </div>
+                                <div class="form-btn">
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact section end -->
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p>Created By <a href="https://www.youtube.com/channel/UCr4TC9YxsDZwzwIxnZOVlBw" target="_blank">Front
+                        End Library</a> |
+                    &copy; 2021 All rights reserved.</p>
+            </footer>
+
+            <!-- Style & Theme Switcher -->
+            <div class="style-switcher">
+                <div class="switch-toggler">
+                    <span class="icon-cog"></span>
+                </div>
+                <h2># Switch Style</h2>
+                <h4>frame color</h4>
+                <ul class="colors">
+                    <li class="main-color"><span class="icon-tint" data-color="red" style="color: orangered;"></span>
+                    </li>
+                    <li class="main-color"><span class="icon-tint" data-color="green" style="color: #22dd1b;"></span>
+                    </li>
+                    <li class="main-color"><span class="icon-tint" data-color="blue" style="color: #1e90ff;"></span>
+                    </li>
+                    <li class="main-color"><span class="icon-tint" data-color="orange" style="color: orange;"></span>
+                    </li>
+                    <li class="main-color"><span class="icon-tint" data-color="pink" style="color: #ff0077;"></span>
+                    </li>
+                </ul>
+                <h4>section color</h4>
+                <ul class="colors">
+                    <li class="style-color"><span class="icon-tint" data-color="red" style="color: orangered;"></span>
+                    </li>
+                    <li class="style-color"><span class="icon-tint" data-color="green" style="color: #22dd1b;"></span>
+                    </li>
+                    <li class="style-color"><span class="icon-tint" data-color="blue" style="color: #1e90ff;"></span>
+                    </li>
+                    <li class="style-color"><span class="icon-tint" data-color="orange" style="color: orange;"></span>
+                    </li>
+                    <li class="style-color"><span class="icon-tint" data-color="pink" style="color: #ff0077;"></span>
+                    </li>
+                </ul>
+                <h4>Themes</h4>
+                <div class="themes">
+                    <div class="theme-switch">
+                        <input type="radio" name="theme" id="dark" value="dark" checked="true">
+                        <label for="dark">dark</label>
+                    </div>
+
+                    <div class="theme-switch">
+                        <input type="radio" name="theme" id="light" value="light">
+                        <label for="light">light</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- typed.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- easypiechart cdn -->
+    <script src="libraries/jquery.easypiechart.js"></script>
+    <!-- ripple effect cdn -->
+    <script src="libraries/jquery.ripples-min.js"></script>
+    <!-- textition effect cdn -->
+    <script src="libraries/textition.js"></script>
+
+    <!-- external plugins script -->
+    <script src="js/library.js"></script>
+    <!-- custom script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

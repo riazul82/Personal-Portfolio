@@ -1,0 +1,29 @@
+.about .typing-text,
+.card-wrapper .card .lare2 h2,
+.blog-details a:hover .blog-title,
+.edu-title.active-title,
+.exp-title.active-title,
+.skill-title.active-title,
+body.light .edu-title.active-title,
+body.light .exp-title.active-title,
+body.light .skill-title.active-title,
+body.light .blog-details a .blog-title:hover {
+    color: orangered;
+}
+
+.card-wrapper .card .lare1 .icon {
+    border: 0.18rem solid orangered;
+}
+
+.blog-details {
+    border-top: 5px solid orangered;
+}
+
+.textition-animation #textition-text p {
+    color: orangered;
+}
+
+.btn:hover {
+    color: orangered;
+    border: 3px solid orangered;
+}

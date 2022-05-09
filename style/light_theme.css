@@ -1,0 +1,207 @@
+body.light .profile-header p {
+    color: #2e2e3f;
+}
+
+body.light .profile-details .profile-details-wrapper {
+    color: #2e2e3f;
+}
+
+body.light .profile-details-content p span {
+    color: #2e2e3f;
+}
+
+body.light #close-profile {
+    color: #2e2e3f;
+}
+
+body.light .slider .slider-inner {
+    color: #aaa;
+}
+
+body.light .project-details-content p a:hover {
+    color: #00aeff;
+}
+
+body.light .btn:hover {
+    background: transparent;
+}
+
+body.light .blog-date {
+    border: 2px solid #2e2e3f;
+}
+
+body.light .navbar ul li {
+    border-bottom: 2px solid #ccc;
+}
+
+body.light .style-switcher {
+    border: 1px solid silver;
+    -webkit-box-shadow: 2px 2px 20px 0 silver;
+    box-shadow: 2px 2px 20px 0 silver;
+}
+
+body.light .style-switcher .switch-toggler {
+    top: -1px;
+    left: -51px;
+    border: 1px solid silver;
+    border-right: 0;
+}
+
+body.light .profile-lightbox {
+    -webkit-box-shadow: 0 0 4px 2px gray;
+    box-shadow: 0 0 4px 2px gray;
+}
+
+body.light .header {
+    -webkit-box-shadow: 0 0 50px 2px #ccc;
+    box-shadow: 0 0 50px 2px #ccc;
+}
+
+body.light .blog-wrapper {
+    -webkit-box-shadow: 5px 5px 20px 0 gray;
+    box-shadow: 5px 5px 20px 0 gray;
+}
+
+body.light .filter-content {
+    -webkit-box-shadow: 5px 5px 20px 0 gray;
+    box-shadow: 5px 5px 20px 0 gray;
+}
+
+body.light .portfolio-lightbox {
+    -webkit-box-shadow: 0 0 4px 2px gray;
+    box-shadow: 0 0 4px 2px gray;
+}
+
+body.light .experience-wrapper:nth-child(1) .exp-year {
+    color: #44c4f7;
+}
+
+body.light .experience-wrapper:nth-child(2) .exp-year {
+    color: #53fa53;
+}
+
+body.light .experience-wrapper:nth-child(3) .exp-year {
+    color: #f8933a;
+}
+
+body.light .experience-wrapper:nth-child(4) .exp-year {
+    color: #f361f3;
+}
+
+body.light .experience-wrapper:nth-child(1) .experience-type {
+    color: #44c4f7;
+}
+
+body.light .experience-wrapper:nth-child(2) .experience-type {
+    color: #53fa53;
+}
+
+body.light .experience-wrapper:nth-child(3) .experience-type {
+    color: #f8933a;
+}
+
+body.light .experience-wrapper:nth-child(4) .experience-type {
+    color: #f361f3;
+}
+
+body.light .experience-wrapper:nth-child(1) .exp-icon {
+    background: #44c4f7;
+}
+
+body.light .experience-wrapper:nth-child(2) .exp-icon {
+    background: #53fa53;
+}
+
+body.light .experience-wrapper:nth-child(3) .exp-icon {
+    background: #f8933a;
+}
+
+body.light .experience-wrapper:nth-child(4) .exp-icon {
+    background: #f361f3;
+}
+
+body.light .display-exp .experience-wrapper:nth-child(1) {
+    border: 3px solid #44c4f7;
+}
+
+body.light .display-exp .experience-wrapper:nth-child(2) {
+    border: 3px solid #53fa53;
+}
+
+body.light .display-exp .experience-wrapper:nth-child(3) {
+    border: 3px solid #f8933a;
+}
+
+body.light .display-exp .experience-wrapper:nth-child(4) {
+    border: 3px solid #f361f3;
+}
+
+body.light .exp-icon span,
+body.light .navbar ul li a:hover {
+    color: #fff;
+}
+
+body.light #close-profile:hover,
+body.light #close-lightbox:hover {
+    color: orangered;
+}
+
+body.light footer,
+body.light .blog-wrapper,
+body.light .container .slider {
+    background: #eee;
+}
+
+body.light .btn,
+body.light .portfolio-filter-menu li,
+body.light .section-header::before {
+    background: #2e2e3f;
+}
+
+body.light .header,
+body.light .container,
+body.light .profile-lightbox,
+body.light .portfolio-lightbox,
+body.light .experience-wrapper .exp-year {
+    background: #fff;
+}
+
+body.light footer p,
+body.light #close-lightbox,
+body.light #main-form input,
+body.light #main-form textarea,
+body.light .section-header,
+body.light .lightbox-header p,
+body.light .info .social-link a,
+body.light .project-details-wrapper,
+body.light .project-details-content p a,
+body.light .project-details-content p span,
+body.light .blog-date,
+body.light .blog-details a .blog-title,
+body.light .blog-details .blog-description,
+body.light .contact-wrapper .info,
+body.light .card-wrapper .card .lare2,
+body.light .card-wrapper .card .lare1 h2,
+body.light .card-wrapper .card .lare1 .icon,
+body.light .container-education .education-title,
+body.light .experience-details .experience-description,
+body.light .my-info .details-title,
+body.light .my-info .my-details p span,
+body.light .about .about-title,
+body.light .about .section-header,
+body.light .about .about-description,
+body.light .home-wrap p,
+body.light .home-wrap h2 span,
+body.light .home-wrap .textition-animation p,
+body.light .profile .profile-name a,
+body.light .navbar ul li a,
+body.light .college,
+body.light .degree-type,
+body.light .degree-details,
+body.light .edu-title,
+body.light .exp-title,
+body.light .skill-title,
+body.light .chart-wrapper p,
+body.light .chart-wrapper .chart {
+    color: #2e2e3f;
+}

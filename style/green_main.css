@@ -1,0 +1,30 @@
+.home-wrap h2,
+.section-header span,
+.my-info .my-details,
+.navbar ul li a::before,
+.navbar ul li a.menu-active,
+.section-header::first-letter,
+.info .address .info-text span,
+body.light .profile-details-content p,
+body.light .project-details-content p,
+body.light .navbar ul li a.menu-active {
+    color: #22dd1b;
+}
+
+::-webkit-scrollbar-thumb,
+.graduation-icon,
+.portfolio-filter-menu li:hover,
+.portfolio-filter-menu li.filter-active,
+body.light .portfolio-filter-menu li:hover,
+body.light .portfolio-filter-menu li.filter-active {
+    background-color: #22dd1b;
+}
+
+.header .profile .profile-image {
+    border: 8px solid #22dd1b;
+}
+
+.btn:hover {
+    color: #22dd1b;
+    border: 3px solid #22dd1b;
+}
